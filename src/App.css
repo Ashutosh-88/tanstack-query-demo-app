@@ -164,7 +164,9 @@ nav ul li a.active {
 .reload-btn {
   border-radius: 7px;
 }
-
+.fetch-state-div {
+  text-align: center;
+}
 .loading,
 .error {
   text-align: center;

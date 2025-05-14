@@ -52,7 +52,10 @@ const InfiniteQueries = () => {
         });
       })}
 
-      <div ref={ref}>{isFetchingNextPage && "Loading..."}</div>
+      <div ref={ref} className="fetch-state-div">
+        {isFetchingNextPage && "Loading..."}
+        {isFetchingNextPage || "You are up-to-date!"}
+      </div>
     </div>
   );
 };
